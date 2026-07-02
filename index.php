@@ -97,6 +97,116 @@
               </div>
             </div>
             <div class="row">
+              <div class="col-md-3 stretch-card grid-margin">
+                <div class="card bg-gradient-danger card-img-holder text-white">
+                  <div class="card-body">
+                    <img src="assets/images/dashboard/circle.svg" class="card-img-absolute" alt="circle-image" />
+                    <h4 class="font-weight-normal mb-3">Banrep <i class="mdi mdi-chart-line mdi-24px float-end"></i>
+                    </h4>
+                    <h2 class="mb-2">676,125</h2>
+                    <h6 class="card-text">Eventos bot · 2026-06-03 a 2026-07-01</h6>
+                    <a href="pages/charts/banrep.php" class="text-white">Ver detalle <i class="mdi mdi-arrow-right"></i></a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3 stretch-card grid-margin">
+                <div class="card bg-gradient-info card-img-holder text-white">
+                  <div class="card-body">
+                    <img src="assets/images/dashboard/circle.svg" class="card-img-absolute" alt="circle-image" />
+                    <h4 class="font-weight-normal mb-3">Cultural <i class="mdi mdi-chart-line mdi-24px float-end"></i>
+                    </h4>
+                    <h2 class="mb-2">36,301</h2>
+                    <h6 class="card-text">Eventos bot · 2026-06-16 a 2026-07-01</h6>
+                    <a href="pages/charts/cultural.php" class="text-white">Ver detalle <i class="mdi mdi-arrow-right"></i></a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3 stretch-card grid-margin">
+                <div class="card bg-gradient-success card-img-holder text-white">
+                  <div class="card-body">
+                    <img src="assets/images/dashboard/circle.svg" class="card-img-absolute" alt="circle-image" />
+                    <h4 class="font-weight-normal mb-3">Enciclopedia <i class="mdi mdi-chart-line mdi-24px float-end"></i>
+                    </h4>
+                    <h2 class="mb-2">97,051</h2>
+                    <h6 class="card-text">Eventos bot · 2026-06-23 a 2026-07-01</h6>
+                    <a href="pages/charts/enciclopedia.php" class="text-white">Ver detalle <i class="mdi mdi-arrow-right"></i></a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3 stretch-card grid-margin">
+                <div class="card bg-gradient-warning card-img-holder text-white">
+                  <div class="card-body">
+                    <img src="assets/images/dashboard/circle.svg" class="card-img-absolute" alt="circle-image" />
+                    <h4 class="font-weight-normal mb-3">Investigación <i class="mdi mdi-chart-line mdi-24px float-end"></i>
+                    </h4>
+                    <h2 class="mb-2">—</h2>
+                    <h6 class="card-text">Sin datos disponibles aún</h6>
+                    <a href="pages/charts/investigacion.php" class="text-white">Ver detalle <i class="mdi mdi-arrow-right"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-12 grid-margin">
+                <div class="card">
+                  <div class="card-body">
+                    <h4 class="card-title">Resumen de Reportes</h4>
+                    <div class="table-responsive">
+                      <table class="table">
+                        <thead>
+                          <tr>
+                            <th> Reporte </th>
+                            <th> Bot principal </th>
+                            <th> Total eventos </th>
+                            <th> Periodo </th>
+                            <th> Estado </th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <td> Banrep </td>
+                            <td> GPTBot (505,894) </td>
+                            <td> 676,125 </td>
+                            <td> 2026-06-03 a 2026-07-01 </td>
+                            <td>
+                              <label class="badge badge-gradient-success">ACTUALIZADO</label>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td> Cultural </td>
+                            <td> GPTBot (19,084) </td>
+                            <td> 36,301 </td>
+                            <td> 2026-06-16 a 2026-07-01 </td>
+                            <td>
+                              <label class="badge badge-gradient-success">ACTUALIZADO</label>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td> Enciclopedia </td>
+                            <td> GPTBot (79,839) </td>
+                            <td> 97,051 </td>
+                            <td> 2026-06-23 a 2026-07-01 </td>
+                            <td>
+                              <label class="badge badge-gradient-success">ACTUALIZADO</label>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td> Investigación </td>
+                            <td> — </td>
+                            <td> — </td>
+                            <td> — </td>
+                            <td>
+                              <label class="badge badge-gradient-warning">PENDIENTE</label>
+                            </td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row">
               <div class="col-md-7 grid-margin stretch-card">
                 <div class="card">
                   <div class="card-body">
