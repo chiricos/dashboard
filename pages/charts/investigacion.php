@@ -41,7 +41,7 @@
                 <div class="card">
                   <div class="card-body">
                     <h4 class="card-title">Investigación</h4>
-                    <p class="card-description">Content for Investigación goes here.</p>
+                    <p class="card-description">Investigación grafica.</p>
                   </div>
                 </div>
               </div>

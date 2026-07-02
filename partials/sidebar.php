@@ -54,7 +54,7 @@
     </li>
     <li class="nav-item">
       <a class="nav-link" data-bs-toggle="collapse" href="#charts" aria-expanded="false" aria-controls="charts">
-        <span class="menu-title">Charts</span>
+        <span class="menu-title">Graficas</span>
         <i class="mdi mdi-chart-bar menu-icon"></i>
       </a>
       <div class="collapse" id="charts">
