@@ -71,6 +71,9 @@
           <li class="nav-item">
             <a class="nav-link" href="/pages/charts/investigacion.php">Investigación</a>
           </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/pages/charts/enciclopedia.php">Enciclopedia</a>
+          </li>
         </ul>
       </div>
     </li>
