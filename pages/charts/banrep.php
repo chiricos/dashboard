@@ -4,7 +4,7 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Purple Admin</title>
+    <title>Banrep | Purple Admin</title>
     <!-- plugins:css -->
     <link rel="stylesheet" href="../../assets/vendors/mdi/css/materialdesignicons.min.css">
     <link rel="stylesheet" href="../../assets/vendors/ti-icons/css/themify-icons.css">
@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="../../assets/vendors/font-awesome/css/font-awesome.min.css">
     <!-- endinject -->
     <!-- Plugin css for this page -->
-    <!-- End Plugin css for this page -->
+    <!-- End plugin css for this page -->
     <!-- inject:css -->
     <!-- endinject -->
     <!-- Layout styles -->
@@ -22,33 +22,37 @@
   </head>
   <body>
     <div class="container-scroller">
-      <div class="container-fluid page-body-wrapper full-page-wrapper">
-        <div class="content-wrapper d-flex align-items-center text-center error-page bg-primary">
-          <div class="row flex-grow">
-            <div class="col-lg-7 mx-auto text-white">
-              <div class="row align-items-center d-flex flex-row">
-                <div class="col-lg-6 text-lg-right pr-lg-4">
-                  <h1 class="display-1 mb-0">404</h1>
-                </div>
-                <div class="col-lg-6 error-page-divider text-lg-left pl-lg-4">
-                  <h2>SORRY!</h2>
-                  <h3 class="font-weight-light">The page you’re looking for was not found.</h3>
-                </div>
-              </div>
-              <div class="row mt-5">
-                <div class="col-12 text-center mt-xl-2">
-                  <a class="text-white font-weight-medium" href="../../index.html">Back to home</a>
-                </div>
-              </div>
-              <div class="row mt-5">
-                <div class="col-12 mt-xl-2">
-                  <p class="text-white font-weight-medium text-center">Copyright &copy; 2021 All rights reserved.</p>
+      <?php include $_SERVER['DOCUMENT_ROOT'] . '/partials/navbar.php'; ?>
+      <div class="container-fluid page-body-wrapper">
+        <?php include $_SERVER['DOCUMENT_ROOT'] . '/partials/sidebar.php'; ?>
+        <div class="main-panel">
+          <div class="content-wrapper">
+            <div class="page-header">
+              <h3 class="page-title">Banrep</h3>
+              <nav aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                  <li class="breadcrumb-item"><a href="#">Charts</a></li>
+                  <li class="breadcrumb-item active" aria-current="page">Banrep</li>
+                </ol>
+              </nav>
+            </div>
+            <div class="row">
+              <div class="col-lg-12 grid-margin stretch-card">
+                <div class="card">
+                  <div class="card-body">
+                    <h4 class="card-title">Bot traffic (2026-06-03 to 2026-07-01)</h4>
+                    <div class="chart-container" style="position: relative; height: 350px; width: 100%;">
+                      <canvas id="banrepChart"></canvas>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
+          <!-- content-wrapper ends -->
+          <?php include $_SERVER['DOCUMENT_ROOT'] . '/partials/footer.php'; ?>
         </div>
-        <!-- content-wrapper ends -->
+        <!-- main-panel ends -->
       </div>
       <!-- page-body-wrapper ends -->
     </div>
@@ -57,6 +61,7 @@
     <script src="../../assets/vendors/js/vendor.bundle.base.js"></script>
     <!-- endinject -->
     <!-- Plugin js for this page -->
+    <script src="../../assets/vendors/chart.js/chart.umd.js"></script>
     <!-- End plugin js for this page -->
     <!-- inject:js -->
     <script src="../../assets/js/off-canvas.js"></script>
@@ -65,5 +70,8 @@
     <script src="../../assets/js/todolist.js"></script>
     <script src="../../assets/js/jquery.cookie.js"></script>
     <!-- endinject -->
+    <!-- Custom js for this page -->
+    <script src="../../assets/js/banrep-chart.js"></script>
+    <!-- End custom js for this page -->
   </body>
 </html>

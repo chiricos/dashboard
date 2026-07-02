@@ -3,7 +3,7 @@
     <li class="nav-item nav-profile">
       <a href="#" class="nav-link">
         <div class="nav-profile-image">
-          <img src="../assets/images/faces/face1.jpg" alt="profile" />
+          <img src="/assets/images/faces/face1.jpg" alt="profile" />
           <span class="login-status online"></span>
           <!--change to offline or busy as needed-->
         </div>
@@ -15,7 +15,7 @@
       </a>
     </li>
     <li class="nav-item">
-      <a class="nav-link" href="../index.html">
+      <a class="nav-link" href="/index.php">
         <span class="menu-title">Dashboard</span>
         <i class="mdi mdi-home menu-icon"></i>
       </a>
@@ -29,13 +29,13 @@
       <div class="collapse" id="ui-basic">
         <ul class="nav flex-column sub-menu">
           <li class="nav-item">
-            <a class="nav-link" href="../pages/ui-features/buttons.html">Buttons</a>
+            <a class="nav-link" href="/pages/ui-features/buttons.php">Buttons</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="../pages/ui-features/dropdowns.html">Dropdowns</a>
+            <a class="nav-link" href="/pages/ui-features/dropdowns.php">Dropdowns</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="../pages/ui-features/typography.html">Typography</a>
+            <a class="nav-link" href="/pages/ui-features/typography.php">Typography</a>
           </li>
         </ul>
       </div>
@@ -48,7 +48,7 @@
       <div class="collapse" id="icons">
         <ul class="nav flex-column sub-menu">
           <li class="nav-item">
-            <a class="nav-link" href="../pages/icons/font-awesome.html">Font Awesome</a>
+            <a class="nav-link" href="/pages/icons/font-awesome.php">Font Awesome</a>
           </li>
         </ul>
       </div>
@@ -61,7 +61,7 @@
       <div class="collapse" id="forms">
         <ul class="nav flex-column sub-menu">
           <li class="nav-item">
-            <a class="nav-link" href="../pages/forms/basic_elements.html">Form Elements</a>
+            <a class="nav-link" href="/pages/forms/basic_elements.php">Form Elements</a>
           </li>
         </ul>
       </div>
@@ -74,16 +74,16 @@
       <div class="collapse" id="charts">
         <ul class="nav flex-column sub-menu">
           <li class="nav-item">
-            <a class="nav-link" href="../pages/charts/chartjs.html">ChartJs</a>
+            <a class="nav-link" href="/pages/charts/chartjs.php">ChartJs</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="../pages/charts/banrep.html">Banrep</a>
+            <a class="nav-link" href="/pages/charts/banrep.php">Banrep</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="../pages/charts/cultural.html">Cultural</a>
+            <a class="nav-link" href="/pages/charts/cultural.php">Cultural</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="../pages/charts/investigacion.html">Investigación</a>
+            <a class="nav-link" href="/pages/charts/investigacion.php">Investigación</a>
           </li>
         </ul>
       </div>
@@ -96,7 +96,7 @@
       <div class="collapse" id="tables">
         <ul class="nav flex-column sub-menu">
           <li class="nav-item">
-            <a class="nav-link" href="../pages/tables/basic-table.html">Basic table</a>
+            <a class="nav-link" href="/pages/tables/basic-table.php">Basic table</a>
           </li>
         </ul>
       </div>
@@ -110,25 +110,25 @@
       <div class="collapse" id="auth">
         <ul class="nav flex-column sub-menu">
           <li class="nav-item">
-            <a class="nav-link" href="../pages/samples/blank-page.html"> Blank Page </a>
+            <a class="nav-link" href="/pages/samples/blank-page.php"> Blank Page </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="../pages/samples/login.html"> Login </a>
+            <a class="nav-link" href="/pages/samples/login.php"> Login </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="../pages/samples/register.html"> Register </a>
+            <a class="nav-link" href="/pages/samples/register.php"> Register </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="../pages/samples/error-404.html"> 404 </a>
+            <a class="nav-link" href="/pages/samples/error-404.php"> 404 </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="../pages/samples/error-500.html"> 500 </a>
+            <a class="nav-link" href="/pages/samples/error-500.php"> 500 </a>
           </li>
         </ul>
       </div>
     </li>
     <li class="nav-item">
-      <a class="nav-link" href="../docs/documentation.html" target="_blank">
+      <a class="nav-link" href="/docs/documentation.html" target="_blank">
         <span class="menu-title">Documentation</span>
         <i class="mdi mdi-file-document-box menu-icon"></i>
       </a>
