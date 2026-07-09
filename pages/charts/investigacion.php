@@ -40,8 +40,10 @@
               <div class="col-lg-12 grid-margin stretch-card">
                 <div class="card">
                   <div class="card-body">
-                    <h4 class="card-title">Investigación</h4>
-                    <p class="card-description">Investigación grafica.</p>
+                    <h4 class="card-title">Bot IA (2026-06-25 a 2026-07-09)</h4>
+                    <div class="chart-container" style="position: relative; height: 350px; width: 100%;">
+                      <canvas id="investigacionChart"></canvas>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -59,6 +61,7 @@
     <script src="../../assets/vendors/js/vendor.bundle.base.js"></script>
     <!-- endinject -->
     <!-- Plugin js for this page -->
+    <script src="../../assets/vendors/chart.js/chart.umd.js"></script>
     <!-- End plugin js for this page -->
     <!-- inject:js -->
     <script src="../../assets/js/off-canvas.js"></script>
@@ -68,6 +71,7 @@
     <script src="../../assets/js/jquery.cookie.js"></script>
     <!-- endinject -->
     <!-- Custom js for this page -->
+    <script src="../../assets/js/investigacion-chart.js"></script>
     <!-- End custom js for this page -->
   </body>
 </html>
