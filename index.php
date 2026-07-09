@@ -50,8 +50,8 @@
                     <img src="assets/images/dashboard/circle.svg" class="card-img-absolute" alt="circle-image" />
                     <h4 class="font-weight-normal mb-3">Banrep <i class="mdi mdi-chart-line mdi-24px float-end"></i>
                     </h4>
-                    <h2 class="mb-2">676,125</h2>
-                    <h6 class="card-text">Eventos bot · 2026-06-03 a 2026-07-01</h6>
+                    <h2 class="mb-2">784,395</h2>
+                    <h6 class="card-text">Eventos bot · 2026-06-03 a 2026-07-08</h6>
                     <a href="pages/charts/banrep.php" class="text-white">Ver detalle <i class="mdi mdi-arrow-right"></i></a>
                   </div>
                 </div>
@@ -86,8 +86,8 @@
                     <img src="assets/images/dashboard/circle.svg" class="card-img-absolute" alt="circle-image" />
                     <h4 class="font-weight-normal mb-3">Investigación <i class="mdi mdi-chart-line mdi-24px float-end"></i>
                     </h4>
-                    <h2 class="mb-2">—</h2>
-                    <h6 class="card-text">Sin datos disponibles aún</h6>
+                    <h2 class="mb-2">4,916</h2>
+                    <h6 class="card-text">Eventos bot · 2026-06-25 a 2026-07-09</h6>
                     <a href="pages/charts/investigacion.php" class="text-white">Ver detalle <i class="mdi mdi-arrow-right"></i></a>
                   </div>
                 </div>
@@ -112,9 +112,9 @@
                         <tbody>
                           <tr>
                             <td> Banrep </td>
-                            <td> GPTBot (505,894) </td>
-                            <td> 676,125 </td>
-                            <td> 2026-06-03 a 2026-07-01 </td>
+                            <td> GPTBot (567,578) </td>
+                            <td> 784,395 </td>
+                            <td> 2026-06-03 a 2026-07-08 </td>
                             <td>
                               <label class="badge badge-gradient-success">ACTUALIZADO</label>
                             </td>
@@ -139,11 +139,11 @@
                           </tr>
                           <tr>
                             <td> Investigación </td>
-                            <td> — </td>
-                            <td> — </td>
-                            <td> — </td>
+                            <td> ClaudeBot (1,865) </td>
+                            <td> 4,916 </td>
+                            <td> 2026-06-25 a 2026-07-09 </td>
                             <td>
-                              <label class="badge badge-gradient-warning">PENDIENTE</label>
+                              <label class="badge badge-gradient-success">ACTUALIZADO</label>
                             </td>
                           </tr>
                         </tbody>
