@@ -71,6 +71,7 @@
     <script src="../../assets/js/jquery.cookie.js"></script>
     <!-- endinject -->
     <!-- Custom js for this page -->
+    <script src="../../assets/js/xlsx-chart.js"></script>
     <script src="../../assets/js/investigacion-chart.js"></script>
     <!-- End custom js for this page -->
   </body>
