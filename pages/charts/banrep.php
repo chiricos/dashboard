@@ -40,7 +40,7 @@
               <div class="col-lg-12 grid-margin stretch-card">
                 <div class="card">
                   <div class="card-body">
-                    <h4 class="card-title">Bot IA (2026-06-03 a 2026-07-08)</h4>
+                    <h4 class="card-title">Bot IA (2026-06-03 a 2026-07-15)</h4>
                     <div class="chart-container" style="position: relative; height: 350px; width: 100%;">
                       <canvas id="banrepChart"></canvas>
                     </div>

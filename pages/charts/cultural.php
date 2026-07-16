@@ -40,7 +40,7 @@
               <div class="col-lg-12 grid-margin stretch-card">
                 <div class="card">
                   <div class="card-body">
-                    <h4 class="card-title">Bot IA (2026-06-16 A 2026-07-01)</h4>
+                    <h4 class="card-title">Bot IA (2026-06-16 A 2026-07-15)</h4>
                     <div class="chart-container" style="position: relative; height: 350px; width: 100%;">
                       <canvas id="culturalChart"></canvas>
                     </div>
